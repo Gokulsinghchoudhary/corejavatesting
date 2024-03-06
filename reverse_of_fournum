@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class test1 {
+
+	public static void main(String[] args)
+	{
+	 int a,b,c,d,e,f;
+	 Scanner sc= new Scanner(System.in);
+	 
+		int num;
+		
+		System.out.println("enter foure digit num:");
+		 num=sc.nextInt();
+		 
+		 System.out.println("your Number is :" + num);
+
+		 a = num/1000;
+
+		 // System.out.println("first num is:" + c);
+		 
+		 b= (num/100)%10;
+		 // System.out.println("second num is:" + c);
+		 		 
+		 c= (num%100)/10;
+		 
+		 // System.out.println("second num is:" + c);
+		 	
+		d= num%10;
+        // System.out.println("fourth num is:" + c);
+		 
+          
+		 System.out.println("reverse of this no is :" + d+c+b+a);
+		 
+	}
+
+}
