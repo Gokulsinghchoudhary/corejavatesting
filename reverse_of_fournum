@@ -15,21 +15,10 @@ public class test1 {
 		 System.out.println("your Number is :" + num);
 
 		 a = num/1000;
-
-		 // System.out.println("first num is:" + c);
-		 
-		 b= (num/100)%10;
-		 // System.out.println("second num is:" + c);
-		 		 
+		 b= (num/100)%10;			 
 		 c= (num%100)/10;
-		 
-		 // System.out.println("second num is:" + c);
-		 	
-		d= num%10;
-        // System.out.println("fourth num is:" + c);
-		 
-          
-		 System.out.println("reverse of this no is :" + d+c+b+a);
+		 d= num%10;
+                 System.out.println("reverse of this no is :" + d+c+b+a);
 		 
 	}
 
